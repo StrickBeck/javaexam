@@ -1,0 +1,13 @@
+Requirement,Implementation,Evidence
+Manage customers and employees,User / Customer / Employee; Main menus,Account and console tests
+Manage books electronics clothing,Product / Book / Electronics / Clothing,Model and console tests
+Manage orders,Order and Shop.placeOrder,Purchase and rejection tests
+Add users and products,Shop methods and employee menu,Console workflow
+List users and products,Shop collection getters and Main listing,Console and list-copy tests
+Place orders and view all orders,Customer menu and employee option 6,Purchase/history tests
+Private fields and controlled access,Private state and validated setters,Reflection and input checks
+Inheritance,Two User subclasses and three Product subclasses,UML and Java source
+Collections,ArrayList for users products orders and selected products,Source and purchase tests
+Console input,Scanner in Main,Console recovery and EOF tests
+UML class diagram,docs/UML-Class-Diagram.pdf,Two diagram sheets
+PDF report,Personalised report in docs,Requirements; design; implementation; tests; full source appendix

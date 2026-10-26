@@ -1,0 +1,122 @@
+=== ICT Console Shop ===
+Employee: employee@shop.local / Employee123
+Customer: customer@shop.local / Customer123
+
+MAIN MENU
+1. Log in
+2. Register customer
+3. List products
+0. Exit
+Choose: Email: Password: 
+EMPLOYEE MENU
+1. List products
+2. Add product
+3. List users
+4. Add customer
+5. Add employee
+6. View all orders
+0. Log out
+Choose: 1 | Employee | Demo Employee | employee@shop.local
+2 | Customer | Demo Customer | customer@shop.local
+
+EMPLOYEE MENU
+1. List products
+2. Add product
+3. List users
+4. Add customer
+5. Add employee
+6. View all orders
+0. Log out
+Choose: 
+MAIN MENU
+1. Log in
+2. Register customer
+3. List products
+0. Exit
+Choose: Email: Password: 
+CUSTOMER MENU
+1. List products
+2. Place order
+3. My orders
+0. Log out
+Choose: Book | 1 | Java Basics | 3500.00 KZT | stock=10 | author=ICT Teaching Team
+Electronics | 2 | Wireless Mouse | 15000.00 KZT | stock=5 | brand=StudyTech
+Clothing | 3 | Campus T-Shirt | 8000.00 KZT | stock=8 | size=M
+One selection = one unit. Repeat an ID for more units. Enter 0 to finish.
+Product ID: Added: Java Basics
+Product ID: Added: Java Basics
+Product ID: Added: Wireless Mouse
+Product ID: Confirm order? (y/n): Order placed.
+
+=== RECEIPT #1 ===
+Customer: Demo Customer
+Java Basics - 3500.00 KZT
+Java Basics - 3500.00 KZT
+Wireless Mouse - 15000.00 KZT
+TOTAL: 22000.00 KZT
+
+CUSTOMER MENU
+1. List products
+2. Place order
+3. My orders
+0. Log out
+Choose: 
+=== RECEIPT #1 ===
+Customer: Demo Customer
+Java Basics - 3500.00 KZT
+Java Basics - 3500.00 KZT
+Wireless Mouse - 15000.00 KZT
+TOTAL: 22000.00 KZT
+
+CUSTOMER MENU
+1. List products
+2. Place order
+3. My orders
+0. Log out
+Choose: Book | 1 | Java Basics | 3500.00 KZT | stock=8 | author=ICT Teaching Team
+Electronics | 2 | Wireless Mouse | 15000.00 KZT | stock=4 | brand=StudyTech
+Clothing | 3 | Campus T-Shirt | 8000.00 KZT | stock=8 | size=M
+
+CUSTOMER MENU
+1. List products
+2. Place order
+3. My orders
+0. Log out
+Choose: 
+MAIN MENU
+1. Log in
+2. Register customer
+3. List products
+0. Exit
+Choose: Email: Password: 
+EMPLOYEE MENU
+1. List products
+2. Add product
+3. List users
+4. Add customer
+5. Add employee
+6. View all orders
+0. Log out
+Choose: 
+=== RECEIPT #1 ===
+Customer: Demo Customer
+Java Basics - 3500.00 KZT
+Java Basics - 3500.00 KZT
+Wireless Mouse - 15000.00 KZT
+TOTAL: 22000.00 KZT
+
+EMPLOYEE MENU
+1. List products
+2. Add product
+3. List users
+4. Add customer
+5. Add employee
+6. View all orders
+0. Log out
+Choose: 
+MAIN MENU
+1. Log in
+2. Register customer
+3. List products
+0. Exit
+Choose: Goodbye.

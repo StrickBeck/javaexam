@@ -1,0 +1,124 @@
+@startuml
+skinparam monochrome true
+skinparam classAttributeIconSize 0
+hide circle
+title Console Shop - Class Diagram
+class Main {
+  - shop: Shop {readOnly}
+  - input: Scanner {readOnly}
+  + Main(Shop, Scanner)
+  + main(String[]): void {static}
+  + run(): void
+  - login(): void
+  - employeeMenu(): void
+  - customerMenu(Customer): void
+  - addUser(boolean): void
+  - addProduct(): void
+  - placeOrder(Customer): void
+  - showProducts(): void
+  - showOrders(ArrayList<Order>): void
+  - readText(String): String
+  - readInt(String): int
+  - readPrice(): double
+}
+class Book {
+  - author: String
+  + Book(int, String, double, int, String)
+  + getAuthor(): String
+  + setAuthor(String): void
+  + displayInfo(): String
+}
+class Clothing {
+  - size: String
+  + Clothing(int, String, double, int, String)
+  + getSize(): String
+  + setSize(String): void
+  + displayInfo(): String
+}
+class Customer {
+  + Customer(int, String, String, String)
+}
+class Electronics {
+  - brand: String
+  + Electronics(int, String, double, int, String)
+  + getBrand(): String
+  + setBrand(String): void
+  + displayInfo(): String
+}
+class Employee {
+  + Employee(int, String, String, String)
+}
+class Order {
+  - orderId: int {readOnly}
+  - customer: Customer {readOnly}
+  - products: ArrayList<Product> {readOnly}
+  - totalAmount: double {readOnly}
+  - receipt: String {readOnly}
+  + Order(int, Customer, ArrayList<Product>)
+  + getOrderId(): int
+  + getCustomer(): Customer
+  + getProducts(): ArrayList<Product>
+  + getTotalAmount(): double
+  + printReceipt(): String
+}
+class Product {
+  - id: int {readOnly}
+  - name: String
+  - price: double
+  - stockQuantity: int
+  + Product(int, String, double, int)
+  + getId(): int
+  + getName(): String
+  + getPrice(): double
+  + getStockQuantity(): int
+  + setName(String): void
+  + setPrice(double): void
+  + setStockQuantity(int): void
+  + displayInfo(): String
+}
+class User {
+  - id: int {readOnly}
+  - name: String
+  - email: String
+  - password: String
+  - role: String {readOnly}
+  + User(int, String, String, String, String)
+  + getId(): int
+  + getName(): String
+  + getEmail(): String
+  + getRole(): String
+  + setName(String): void
+  + setEmail(String): void
+  + setPassword(String): void
+  + checkPassword(String): boolean
+  + toString(): String
+}
+class Shop {
+  - users: ArrayList<User> {readOnly}
+  - products: ArrayList<Product> {readOnly}
+  - orders: ArrayList<Order> {readOnly}
+  + Shop()
+  + addCustomer(String, String, String): Customer
+  + addEmployee(String, String, String): Employee
+  - checkEmail(String): void
+  + login(String, String): User
+  + addProduct(Product): void
+  + getUsers(): ArrayList<User>
+  + getProducts(): ArrayList<Product>
+  + getOrders(): ArrayList<Order>
+  + findProduct(int): Product
+  + getCustomerOrders(Customer): ArrayList<Order>
+  + placeOrder(Customer, ArrayList<Product>): Order
+}
+User <|-- Customer
+User <|-- Employee
+Product <|-- Book
+Product <|-- Electronics
+Product <|-- Clothing
+Order "0..*" --> "1" Customer : customer
+Order "0..*" --> "1..*" Product : products (one entry per unit)
+Shop --> "0..*" User : users
+Shop --> "0..*" Product : products
+Shop --> "0..*" Order : orders
+Main --> "1" Shop : shop
+@enduml

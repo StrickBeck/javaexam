@@ -1,0 +1,26 @@
+{
+  "variant": "console teaching project",
+  "language": "English",
+  "student": "Kaisarbekov Argyn Zhasulanuly",
+  "studentId": "4211",
+  "date": "2026-10-26",
+  "productionSourceCount": 10,
+  "packagedClassCount": 10,
+  "compiler": "OpenJDK javac 27",
+  "bytecodeTarget": "Java 17 (class version 61)",
+  "validation": "104 checks passed across 8 groups",
+  "reportPages": 19,
+  "umlSheets": 2,
+  "sourceSha256": {
+    "src/main/java/edu/ict/shop/Main.java": "828c8ffe34f2b9c28ab2db34bf4be48acdf042ecf771770d1fa5613a36e54a7a",
+    "src/main/java/edu/ict/shop/model/Book.java": "c1d0bb6c8d1a3a6cb873f5ea5da8c2624bb9cb228be42f3e1129d0de81d9791a",
+    "src/main/java/edu/ict/shop/model/Clothing.java": "61d9a3cdef9405092890397f5665ff9261f3fc28af9d5aaec18fe962f147a6c7",
+    "src/main/java/edu/ict/shop/model/Customer.java": "4eab8844b21e9245a7c0f728e8f961eeef7b7c54f8d620c7d53614248105ba0e",
+    "src/main/java/edu/ict/shop/model/Electronics.java": "ba4dcb3dd77c888b70fd04283bd9fa389a946fe794ebf4abae0330e056d7bfe4",
+    "src/main/java/edu/ict/shop/model/Employee.java": "5a39d907cd83170b40a60f6fc8a7722ce512c7f518565ca97cc30b3366af7be7",
+    "src/main/java/edu/ict/shop/model/Order.java": "8a83c5405a09705bbc1c12a29a63ebd4f41c6f09abd76d83ab9d9c40028ca7bc",
+    "src/main/java/edu/ict/shop/model/Product.java": "0e3cbf0900004deb10b0e3c8c54873930077ec5e62130b70d6d78a0d082b93f4",
+    "src/main/java/edu/ict/shop/model/User.java": "fe043eb8a56ed9ff74204d57479c2d89fb36c692c7cc838672884b3342b31595",
+    "src/main/java/edu/ict/shop/Shop.java": "287439122bee409b1d3236ba5cfff0882c59b81db1d55ff0cd3c17ee99cfa365"
+  }
+}
