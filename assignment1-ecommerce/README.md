@@ -115,11 +115,3 @@ The project was checked on Windows using OpenJDK 27, targeting Java 17. The POSI
 - [Validation record](docs/TESTING.md): the checks performed.
 
 Prices use double, as a familiar teaching example. Amounts are displayed with two decimal places; exact financial arithmetic could be a reason to use BigDecimal in a future version. Each receipt is built once when its order is created and saved as a string.
-
-## Submission
-
-Submit the PDF report to cceken@ku.edu.kz before the oral examination. Use the subject **ict-assignment1-KaisarbekovArgynZhasulanuly** and the filename **Kaisarbekov-Argyn-Zhasulanuly-Report.pdf**. The name uses a Latin transliteration; use your official Latin spelling if it differs.
-
-Keep the source code ready in the IDE, the report open, and the application ready to demonstrate during the oral examination.
-
-[Original course requirements](https://github.com/cllckn/information-and-communication-technologies/blob/2b3640d74ddfa98a2765057053c2fc1c13730caa/assignments/assignment1/README.md). The implementation source is included in the report appendix and project archive.
